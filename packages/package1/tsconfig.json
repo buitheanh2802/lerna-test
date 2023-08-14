@@ -1,6 +1,17 @@
 {
     "compilerOptions": {
-        "outDir": "./build"
+        "outDir": "./build",
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        "checkJs": false,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true
     },
     "include": ["./src/**/*"],
     "exclude": ["node_modules"]
