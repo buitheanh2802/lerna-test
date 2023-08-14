@@ -1,0 +1,2 @@
+lerna là một công cụ quản lí các package nó có tác dụng rất hay trong việc phát triển các packages và nâng các
+package lên version mới đồng loạt khi push lên npm
