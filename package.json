@@ -5,5 +5,12 @@
   "license": "MIT",
   "dependencies": {
     "lerna": "^7.1.5"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "private": true
 }
