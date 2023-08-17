@@ -34,6 +34,9 @@ module.exports = (env,args) => {
             new HtmlWebpackPlugin({
                 filename: 'index.html',
                 template: path.resolve(process.cwd(),'./public/index.html')
+            }),
+            new Webpack.ProvidePlugin({
+                styled: ''
             })
         ],
         resolve: {
