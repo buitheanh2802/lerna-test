@@ -1,20 +1,22 @@
 import React, { useEffect } from 'react';
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
+import { css } from '@emotion/react';
 
 const Wrapper = styled.div`
-    display: flex;
+
 `;
 
+const style = css``;
+
 const App = () => {
-
-    useEffect(() => {
-
-    },[]);
+    useEffect(() => {}, []);
 
     return (
-        <div className='app-wrapper'>
-            hello world
-        </div>
+        <Wrapper css={{
+            display: "flex"
+        }}>
+            <div>hello world</div>
+        </Wrapper>
     );
 };
 
